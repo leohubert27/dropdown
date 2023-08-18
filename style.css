@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+nav {
+    background-color: orangered;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover {
+    background-color: red;
+}
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    background-color: orangered;
+    display: none;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;   
+}
+
+
+/* Conteudo principal*/
+
+.conteudo {
+    background-color: black;
+    text-align: center;
+}
+
+.conteudo-apresentacao {
+    padding: 50px;
+}
+
+.conteudo-titulo {
+    font-size: 72px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.conteudo-texto {
+    font-size: 24px;
+    color: antiquewhite;
+    padding: 60px;
+}
